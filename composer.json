@@ -1,0 +1,33 @@
+{
+    "name": "ifo/laravel-roles-permission-manager",
+    
+    "description": "The ifo/Laravel roles and manager.",
+    "keywords": [
+        "framework",
+        "laravel",
+        "Roles",
+        "Permissions",
+        "Managing roles"
+    ],
+    "license": "MIT",
+   
+   
+   
+    "autoload": {
+        "psr-4": {
+             "Packages\\RoleManager\\": "src/",
+             "Packages\\RoleManager\\Database\\Seeders\\": "Packages/RoleManager/Database/Seeders/"
+
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+              "Packages\\RoleManager\\App\\Providers\\RoleManagerServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    }
+}
